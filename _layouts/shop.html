@@ -136,7 +136,7 @@ layout: default
     <p class="editable"> <strong> Facebook: </strong> fb.com/companyname </p>
   </div>
   <div class="col-6_sm-12-middle padded">
-    <form class="grid-center" action="https://formspree.io/hello@company.com" method="POST">
+    <form class="grid-center" action="/success.html" method="POST">
       <div class="col-6_sm-12">
         <input type="text" name="name" placeholder="Votre Nom" />
       </div>
@@ -145,6 +145,8 @@ layout: default
       </div>
       <div class="col-12">
         <textarea placeholder="Votre Message"></textarea>
+        <input type="hidden" name="_to" value="vanchang1309@hotmail.com">
+        <input type="text" name="_gotcha" style="display: none;">
         <input type="submit" value="Send" class="button" />
       </div>
     </form>
